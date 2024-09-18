@@ -1,0 +1,50 @@
+<nav class="bg-black shadow-lg fixed w-full z-10 top-0">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-4">
+                <!-- Logo -->
+                <div>
+                    <a href="index.html" class="flex items-center py-5 px-2 text-purple-400 hover:text-purple-500">
+                        <svg class="h-6 w-6 mr-1 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 2l1.09 3.3L16 8l-3.3 1.09L12 12l-1.09-2.91L8 8l3.3-1.09L12 2z" />
+                        </svg>
+                        <span class="font-bold text-white">[Name]</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Primary Navigation -->
+            <div class="hidden md:flex items-center space-x-1">
+                <a href="index.html" class="py-5 px-3 text-purple-400 hover:text-purple-500">Tab1</a>
+                <a href="about.html" class="py-5 px-3 text-purple-400 hover:text-purple-500">Tab2</a>
+                <a href="services.html" class="py-5 px-3 text-purple-400 hover:text-purple-500">Tab3</a>
+                <a href="contact.html" class="py-5 px-3 text-purple-400 hover:text-purple-500">Tab4</a>
+            </div>
+
+            <!-- Mobile button -->
+            <div class="md:hidden flex items-center">
+                <button class="mobile-menu-button">
+                    <svg class="w-6 h-6 text-purple-400" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden md:hidden">
+        <a href="index.html"
+            class="block py-2 px-4 text-sm text-purple-400 hover:bg-purple-800 hover:text-white">Tab1</a>
+        <a href="about.html"
+            class="block py-2 px-4 text-sm text-purple-400 hover:bg-purple-800 hover:text-white">Tab2</a>
+        <a href="services.html"
+            class="block py-2 px-4 text-sm text-purple-400 hover:bg-purple-800 hover:text-white">Tab3</a>
+        <a href="contact.html"
+            class="block py-2 px-4 text-sm text-purple-400 hover:bg-purple-800 hover:text-white">Tab4</a>
+    </div>
+</nav>
